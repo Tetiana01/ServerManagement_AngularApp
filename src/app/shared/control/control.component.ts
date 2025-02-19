@@ -12,5 +12,6 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
   }
 })
 export class ControlComponent {
+  
   @Input({ required: true }) label!: string;
 }
